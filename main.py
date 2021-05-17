@@ -1,0 +1,8 @@
+dias = int(input())
+anos = int(dias / 365)
+dias = int(dias - (anos * 365))
+meses = int(dias / 30)
+dias = int(dias - (meses * 30))
+print("{} ano(s)".format(anos))
+print("{} mes(es)".format(meses))
+print("{} dia(s)".format(dias))
